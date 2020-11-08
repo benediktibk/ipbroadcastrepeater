@@ -1,3 +1,5 @@
+#define WIN32_LEAN_AND_MEAN
+#include <Windows.h>
 #include "pcap.h"
 
 int main()
@@ -11,7 +13,7 @@ int main()
 	if (pcap_findalldevs_ex(PCAP_SRC_IF_STRING, NULL /* auth is not needed */, &alldevs, errbuf) == -1)
 	{
 		fprintf(stderr, "Error in pcap_findalldevs_ex: %s\n", errbuf);
-		exit(1);
+		return 1;
 	}
 
 	/* Print the list */
