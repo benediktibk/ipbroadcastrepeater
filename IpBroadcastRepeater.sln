@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.vcxproj", "{A3A6D3A1-787C-4823-ABCC-C60455CBFD49}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "npcap-SDK", "..\npcap-SDK\npcap-SDK.vcxproj", "{3D5CC542-7EC8-461F-AD9F-41AFAFB55F8C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "npcap-SDK", "npcap-SDK\npcap-SDK.vcxproj", "{3D5CC542-7EC8-461F-AD9F-41AFAFB55F8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
